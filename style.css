@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Meddon&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.navbar{
+    border: 1px solid black;
+    height: 5vw;
+    background-color: #fc74ae;
+}
+.navbar img{
+    width: 5vw;
+    height: 5vw;
+    float: left;
+    margin-left: 20px;
+}
+.link a{
+    text-decoration: none;
+    float: right;
+    display: inline-block;
+    color: black;
+    padding: 5px;
+    margin: 10px;
+    font-size: larger;
+    margin-top: 20px;
+}
+#ami{
+    margin-right: 80px;
+}
+.link :hover{
+    opacity: 100%;
+    transition: .4s;
+    font-size: x-large;
+    padding: 5px;
+    color: white;
+}
+.banner{
+    background-image: url(images/likeyou.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 40vw;
+}
+.bannertxt{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+}
+.bannertxt h2{
+    text-transform: uppercase;
+    color: rgb(246, 95, 186);
+    font-size: 4em;
+}
+.bannertxt h2 span{
+    color: rgb(255, 186, 230);
+}
+.bannertxt p{
+    color: rgb(206, 160, 160);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.banner a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 1em;
+    background-color: rgb(255, 15, 155);
+    margin-top: 1em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    opacity: 80%;
+}
+.banner a:hover{
+    color: white;
+    opacity: 100%;
+    transition: .4s;
+    font-size: x-large;
+    padding: 20px;
+}
+footer{
+    position: relative;
+    bottom: 100%;
+    border: 1px solid #fc74ae;
+    border-radius: 1px;
+    height: 5vw;
+    background-color: #fc74ae;
+}
+footer img{
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+.socials{
+    width: 4vw;
+    height: 4vw;
+    display: inline-block;
+    margin-right: 10px;
+    float: right;
+}
+#spotify{
+    margin-right: 60px;
+}
+#footertxt{
+    margin-top: 40px;
+    margin-left: 60px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+h1{
+    font-family: 'Meddon', cursive;
+    text-align: center;
+}
+.gallery{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    margin-left: 225px;
+}
+.stolen img{
+    display: inline-block;
+    width: 15vw;
+    height: 20vw;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.selfies img{   
+    display: inline-block;
+    width: 15vw;
+    height: 20vw;
+    margin-left: 50px;
+    margin-right: 50px;
+}
